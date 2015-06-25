@@ -1,0 +1,21 @@
+$red: #F72E2A;
+
+* { position: relative; }
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html { height: 100%; }
+
+body {
+  padding: 60px 20px;
+  height: 100%;
+}
+
+@import 'modules/*';
+
+@media only screen and (max-width: 790px) {
+  body { padding: 60px 0; }
+}

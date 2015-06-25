@@ -1,0 +1,36 @@
+// Box
+
+.box {
+  float: left;
+  width: 100%;
+  margin-bottom: 40px;
+  overflow: hidden;
+
+  img { display: block; margin: 0 auto; }
+
+  .box_title {
+    display: none;
+    position: absolute;
+    top: 0;
+    background: rgba(247, 46, 42, 0.8);
+    padding-top: 29%;
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-family: 'BrandonGrotesque', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  &:hover .box_title {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  .box {
+    margin-bottom: 20px;
+  }
+}

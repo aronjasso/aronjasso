@@ -1,0 +1,26 @@
+// Grid
+
+.line {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1300px;
+
+  .size1of1, .size1of2, .size1of2-sm {
+    position: relative;
+    float: left;
+    padding: 0 20px;
+  }
+
+  .size1of1 { width: 100%; }
+  .size1of2, .size1of2-sm { width: 50%; }
+}
+
+@media only screen and (max-width: 790px) {
+  .line {
+    .size1of1, .size1of2 {
+      padding: 0 15px;
+      width: 100%;
+    }
+  }
+}
