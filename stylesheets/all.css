@@ -1,0 +1,163 @@
+/* line 3, /Users/aronjasso/Sites/Portfolio/source/stylesheets/all.css.scss */
+* {
+  position: relative; }
+
+/* line 4, /Users/aronjasso/Sites/Portfolio/source/stylesheets/all.css.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 10, /Users/aronjasso/Sites/Portfolio/source/stylesheets/all.css.scss */
+html {
+  height: 100%; }
+
+/* line 12, /Users/aronjasso/Sites/Portfolio/source/stylesheets/all.css.scss */
+body {
+  padding: 60px 20px;
+  height: 100%; }
+
+/* line 3, /Users/aronjasso/Sites/Portfolio/source/stylesheets/modules/_box.scss */
+.box {
+  float: left;
+  width: 100%;
+  margin-bottom: 40px;
+  overflow: hidden; }
+  /* line 9, /Users/aronjasso/Sites/Portfolio/source/stylesheets/modules/_box.scss */
+  .box img {
+    display: block;
+    margin: 0 auto; }
+  /* line 11, /Users/aronjasso/Sites/Portfolio/source/stylesheets/modules/_box.scss */
+  .box .box_title {
+    display: none;
+    position: absolute;
+    top: 0;
+    background: rgba(247, 46, 42, 0.8);
+    padding-top: 29%;
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-family: 'BrandonGrotesque', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center; }
+  /* line 26, /Users/aronjasso/Sites/Portfolio/source/stylesheets/modules/_box.scss */
+  .box:hover .box_title {
+    display: block;
+    cursor: pointer; }
+
+@media only screen and (max-width: 790px) {
+  /* line 33, /Users/aronjasso/Sites/Portfolio/source/stylesheets/modules/_box.scss */
+  .box {
+    margin-bottom: 20px; } }
+@font-face {
+  font-family: 'BrandonGrotesque';
+  src: url("fonts/brandon_bld.eot");
+  src: url("fonts/brandon_bld.eot?#iefix") format("embedded-opentype"), url("fonts/brandon_bld.woff2") format("woff2"), url("fonts/brandon_bld.woff") format("woff"), url("fonts/brandon_bld.ttf") format("truetype"), url("fonts/brandon_bld.svg#brandon_grotesquebold") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: 'BrandonGrotesque';
+  src: url("fonts/brandon_reg.eot");
+  src: url("fonts/brandon_reg.eot?#iefix") format("embedded-opentype"), url("fonts/brandon_reg.woff2") format("woff2"), url("fonts/brandon_reg.woff") format("woff"), url("fonts/brandon_reg.ttf") format("truetype"), url("fonts/brandon_reg.svg#brandon_grotesque_regularRg") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: 'BrandonGrotesque';
+  src: url("fonts/brandon_light.eot");
+  src: url("fonts/brandon_light.eot?#iefix") format("embedded-opentype"), url("fonts/brandon_light.woff2") format("woff2"), url("fonts/brandon_light.woff") format("woff"), url("fonts/brandon_light.ttf") format("truetype"), url("fonts/brandon_light.svg#brandon_grotesquelight") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+/* line 3, /Users/aronjasso/Sites/Portfolio/source/stylesheets/modules/_grid.scss */
+.line {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1300px; }
+  /* line 9, /Users/aronjasso/Sites/Portfolio/source/stylesheets/modules/_grid.scss */
+  .line .size1of1, .line .size1of2, .line .size1of2-sm {
+    position: relative;
+    float: left;
+    padding: 0 20px; }
+  /* line 15, /Users/aronjasso/Sites/Portfolio/source/stylesheets/modules/_grid.scss */
+  .line .size1of1 {
+    width: 100%; }
+  /* line 16, /Users/aronjasso/Sites/Portfolio/source/stylesheets/modules/_grid.scss */
+  .line .size1of2, .line .size1of2-sm {
+    width: 50%; }
+
+@media only screen and (max-width: 790px) {
+  /* line 21, /Users/aronjasso/Sites/Portfolio/source/stylesheets/modules/_grid.scss */
+  .line .size1of1, .line .size1of2 {
+    padding: 0 15px;
+    width: 100%; } }
+/* line 1, /Users/aronjasso/Sites/Portfolio/source/stylesheets/modules/_typography.scss */
+body {
+  color: #000000;
+  font-family: 'Baskerville', serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.4; }
+
+/* line 9, /Users/aronjasso/Sites/Portfolio/source/stylesheets/modules/_typography.scss */
+h1 {
+  margin: 0 0 10px;
+  color: #F72E2A;
+  font-family: 'BrandonGrotesque', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+  font-size: 60px;
+  font-weight: 600; }
+
+/* line 17, /Users/aronjasso/Sites/Portfolio/source/stylesheets/modules/_typography.scss */
+h2 {
+  color: #F72E2A;
+  font-family: 'BrandonGrotesque', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 600; }
+
+/* line 24, /Users/aronjasso/Sites/Portfolio/source/stylesheets/modules/_typography.scss */
+h3 {
+  color: #B0BACB;
+  font-family: 'Baskerville', serif;
+  font-size: 16px;
+  font-weight: 400; }
+
+/* line 33, /Users/aronjasso/Sites/Portfolio/source/stylesheets/modules/_typography.scss */
+p {
+  margin: 0 0 20px; }
+
+/* line 35, /Users/aronjasso/Sites/Portfolio/source/stylesheets/modules/_typography.scss */
+a {
+  color: #F72E2A;
+  text-decoration: none; }
+  /* line 38, /Users/aronjasso/Sites/Portfolio/source/stylesheets/modules/_typography.scss */
+  a:visited {
+    color: #F72E2A; }
+  /* line 39, /Users/aronjasso/Sites/Portfolio/source/stylesheets/modules/_typography.scss */
+  a:hover {
+    color: #000000; }
+
+/* line 42, /Users/aronjasso/Sites/Portfolio/source/stylesheets/modules/_typography.scss */
+ul.links li {
+  display: inline-block;
+  margin-right: 10px; }
+
+/* line 47, /Users/aronjasso/Sites/Portfolio/source/stylesheets/modules/_typography.scss */
+.text-center {
+  text-align: center; }
+
+/* line 48, /Users/aronjasso/Sites/Portfolio/source/stylesheets/modules/_typography.scss */
+.text-left {
+  text-align: left; }
+
+/* line 49, /Users/aronjasso/Sites/Portfolio/source/stylesheets/modules/_typography.scss */
+.text-right {
+  text-align: right; }
+
+@media only screen and (max-width: 790px) {
+  /* line 52, /Users/aronjasso/Sites/Portfolio/source/stylesheets/modules/_typography.scss */
+  h1 {
+    font-size: 32px; } }
+@media only screen and (max-width: 790px) {
+  /* line 20, /Users/aronjasso/Sites/Portfolio/source/stylesheets/all.css.scss */
+  body {
+    padding: 60px 0; } }

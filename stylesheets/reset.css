@@ -1,0 +1,200 @@
+/* line 3, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+/* line 9, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+body {
+  margin: 0; }
+
+/* line 11, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block; }
+
+/* line 13, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+/* line 18, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/* line 23, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+[hidden], template {
+  display: none; }
+
+/* line 25, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+a {
+  background: transparent; }
+  /* line 27, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+  a:hover {
+    cursor: pointer; }
+  /* line 28, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+  a:active, a:hover {
+    outline: 0; }
+
+/* line 31, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/* line 33, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+b, strong {
+  font-weight: bold; }
+
+/* line 35, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+dfn {
+  font-style: italic; }
+
+/* line 37, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* line 42, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/* line 47, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+small {
+  font-size: 80%; }
+
+/* line 49, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+sub {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 56, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em; }
+
+/* line 64, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+sub {
+  bottom: -0.25em; }
+
+/* line 66, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+img {
+  border: 0;
+  max-width: 100%;
+  height: auto; }
+
+/* line 72, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* line 74, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+figure {
+  margin: 1em 40px; }
+
+/* line 76, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/* line 82, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+pre {
+  overflow: auto; }
+
+/* line 84, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* line 89, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0; }
+
+/* line 95, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+button {
+  overflow: visible;
+  text-transform: none; }
+
+/* line 100, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+select {
+  text-transform: none; }
+
+/* line 102, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+button, html input[type="button"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+/* line 108, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+/* line 114, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+button[disabled], html input[disabled] {
+  cursor: default; }
+
+/* line 116, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* line 121, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+input {
+  line-height: normal; }
+  /* line 122, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+  input::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  /* line 127, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+  input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0; }
+  /* line 132, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+  input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+    height: auto; }
+  /* line 134, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+  input[type="search"] {
+    -webkit-appearance: textfield; }
+    /* line 136, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+    input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+      -webkit-appearance: none; }
+
+/* line 142, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/* line 148, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+legend {
+  border: 0;
+  padding: 0; }
+
+/* line 153, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+textarea {
+  overflow: auto; }
+
+/* line 155, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+optgroup {
+  font-weight: bold; }
+
+/* line 157, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 162, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+td, th {
+  padding: 0; }
+
+/* line 164, /Users/aronjasso/Sites/Portfolio/source/stylesheets/reset.css.scss */
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
